@@ -1,0 +1,26 @@
+To clone I have used following command
+- git clone https://github.com/SumitP2500/learning_git.git
+
+-----------------------------------------------------
+Note: Yet, this portion is not worked.
+To set username for this repo
+- git config user.name "sumit2500"
+
+To set username globally
+- git config --global user.name "sumit2500"
+
+To confrm username
+- git config user.name
+- git config --global user.name
+
+----------------------------------------------------
+To create file
+- vi simple.html
+
+To add this file remotely on git
+- git status
+- git add simple.html
+- git commit -m "Added simple.html"
+- git pull origin master
+- git push origin master
+
