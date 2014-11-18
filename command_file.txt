@@ -1,7 +1,10 @@
+---------------------------------------------------------
+
 To clone I have used following command
 - git clone https://github.com/SumitP2500/learning_git.git
 
 -----------------------------------------------------
+
 Note: Yet, this portion is not worked.
 To set username for this repo
 - git config user.name "sumit2500"
@@ -14,6 +17,7 @@ To confrm username
 - git config --global user.name
 
 ----------------------------------------------------
+
 To create file
 - vi simple.html
 
@@ -23,4 +27,7 @@ To add this file remotely on git
 - git commit -m "Added simple.html"
 - git pull origin master
 - git push origin master
+
+------------------------------------------------------
+Trying to merge branch on and solve conflicts
 
