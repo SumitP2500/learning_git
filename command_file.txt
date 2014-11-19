@@ -35,6 +35,12 @@ To delete branch from local
 To delete branch from remote
 - git push origin :<BranchName>
 ------------------------------------------------------
+To delete branch from local
+- git branch -D <BranchName>
+
+To delete branch from remote
+- git push origin --delete <BranchName>
+-------------------------------------------------------
 Trying to merge branch on and solve conflicts
 t merge branch_name
 
