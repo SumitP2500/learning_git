@@ -5,6 +5,7 @@ To clone I have used following command
 
 -----------------------------------------------------
 
+*Your Identity*
 Note: Yet, this portion is not worked.
 To set username for this repo
 - git config user.name "sumit2500"
@@ -15,6 +16,9 @@ To set username globally
 To confrm username
 - git config user.name
 - git config --global user.name
+
+Checking all settings
+- git config --list
 
 ----------------------------------------------------
 
