@@ -2,6 +2,10 @@
 
 To clone I have used following command
 - git clone https://github.com/SumitP2500/learning_git.git
+[It will create learning_git repo on local machine]
+
+- git clone https://github.com/SumitP2500/learning_git.git lear_git2
+[It will create git repo as lear_git2]
 
 -----------------------------------------------------
 
@@ -19,9 +23,20 @@ To confrm username
 
 Checking all settings
 - git config --list
+---------------------------------------------------
+Getting help
+
+git help <verb>
+git <verb> --help
 
 ----------------------------------------------------
+to see status of git repo
+- git status
 
+short status
+- git status -s
+
+-------------------------------------------------------
 To create file
 - vi simple.html
 
