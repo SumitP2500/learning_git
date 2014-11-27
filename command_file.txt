@@ -65,6 +65,34 @@ To view what you have staged [two synonym commands]
 - git diff --cached
 
 --------------------------------------------------------
+To remove files from git repo/ staged area
+way 1:
+     rm file_name
+     git add .
+     git commit
+way 2:
+     git rm file_name (It will remove adding staging area)
+     git commit
+
+To remove files form staged area
+- git rm --cached file_name
+[It will remove file from staged area(after add command) but it remains in working tree]
+
+we can use file-glob patterns
+git rm --cached hi\*.txt
+
+-----------------------------------------------------------
+
+To move/rename files
+-git mv file_name file_name1
+
+this is equivalent to running something like this:
+- mv file_name file_name1
+- git rm file_name
+- git add file_name1
+
+-----------------------------------------------------------
+
 Trying to merge branch on and solve conflicts
 t merge branch_name
 
