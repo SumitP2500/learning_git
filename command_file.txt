@@ -56,6 +56,15 @@ To delete branch from remote
 - git push origin :<BranchName>
 - git push origin --delete <BranchName
 -------------------------------------------------------
+TO view staged and unstaged changes
+- git diff
+[it shows you the exact line added and removed]
+
+To view what you have staged [two synonym commands]
+- git diff --staged
+- git diff --cached
+
+--------------------------------------------------------
 Trying to merge branch on and solve conflicts
 t merge branch_name
 
