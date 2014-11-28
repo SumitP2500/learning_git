@@ -1,1 +1,14 @@
 It contain All links which are required to learn Git
+
+Git clone : https://github.com/SumitP2500/learning_git.git
+
+Refer document [Git]: http://git-scm.com/book/en/v2
+
+Current chapter : 2.3
+
+-----------------------------------------------------------------
+
+document [selenium] : http://seleniumeasy.com/
+
+-----------------------------------------------------------------
+
