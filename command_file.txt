@@ -93,6 +93,25 @@ this is equivalent to running something like this:
 
 -----------------------------------------------------------
 
+To view commit history
+- git log
+
+- git log -p -2
+[p - show path with each commit]
+
+git log --pretty=format:"%h - %an, %cn, %ar, %s"
+[  h - abbreviated commit hash
+an - author name
+ae - author email
+ar - author date, relative
+cn - commitor name
+s - subject
+]
+
+git log --pretty="%h - %s" --author=sumit --since="2010-10-15"
+
+-----------------------------------------------------------
+
 Trying to merge branch on and solve conflicts
 t merge branch_name
 
