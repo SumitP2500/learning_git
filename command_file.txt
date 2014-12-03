@@ -128,6 +128,19 @@ To unmodify the modified file
 [It revert file back to what it looked like when last commit.]
 
 -----------------------------------------------------------
+
+To work with remote
+[remote config info store in /.git/config file.]
+- git remote
+- git remote -v
+- git remote add origin2 <url>
+- git remote rename origin origin1
+- git remote rm origin2
+----------------------------------------------------------
+
+Try to add tag as an imp deliverable of code
+
+-----------------------------------------------------------
 Trying to merge branch on and solve conflicts
 t merge branch_name
 
