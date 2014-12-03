@@ -1,3 +1,5 @@
+--------------------------------------------------------
+[[Git Basic]]
 ---------------------------------------------------------
 
 To clone I have used following command
@@ -112,12 +114,23 @@ git log --pretty="%h - %s" --author=sumit --since="2010-10-15"
 
 -----------------------------------------------------------
 
+To Undo the things
+- git commit --amend
+[This command useful when you forget to add something or mess commit message.]
+[This command takes your staging area and uses it for commit.]
+
+To Unstage Staged file
+- git reset HEAD <file_name>
+[git reset can be dangerous if it use it with --hard]
+
+To unmodify the modified file
+- git checkout -- <filename>
+[It revert file back to what it looked like when last commit.]
+
+-----------------------------------------------------------
 Trying to merge branch on and solve conflicts
 t merge branch_name
 
-git commit -a -m “”
-what -a mean
 
-git commit - - amend
-
+-----------------------------------------------------------
 
