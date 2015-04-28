@@ -58,6 +58,19 @@ To delete branch from remote
 - git push origin :<BranchName>
 - git push origin --delete <BranchName
 -------------------------------------------------------
+
+To rename branch locally and remotely
+
+- git branch -m <old_branch_name> <new_branch_name>
+[Rename branch locally to new name. ]
+
+- git push origin :<old_branch_name>
+[Delete the old branch]
+
+- git push --set-upstream origin <new_branch_name>
+[Push the new branch, set local branch to track the new remote]
+
+------------------------------------------------------
 TO view staged and unstaged changes
 - git diff
 [it shows you the exact line added and removed]
