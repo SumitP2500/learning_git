@@ -149,6 +149,8 @@ To work with remote
 - git remote add origin2 <url>
 - git remote rename origin origin1
 - git remote rm origin2
+To modify/change current origin url
+- git remote set-url orign <url>
 ----------------------------------------------------------
 
 Try to add tag as an imp deliverable of code
@@ -159,4 +161,3 @@ t merge branch_name
 
 
 -----------------------------------------------------------
-
