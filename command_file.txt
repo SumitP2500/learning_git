@@ -49,6 +49,8 @@ To add this file remotely on git
 - git pull origin master
 - git push origin master
 
+We can commit all indexed modified file
+- git commit -a -m "commit message"
 ----------------------------------------------------
 To delete branch from local
 - git branch -d <BranchName>
