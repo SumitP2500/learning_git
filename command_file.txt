@@ -144,6 +144,8 @@ To work with remote
 - git remote rm origin2
 To modify/change current origin url
 - git remote set-url orign <url>
+To see more information about remote
+- git remote show origin
 ----------------------------------------------------------
 
 Try to add tag as an imp deliverable of code
@@ -154,3 +156,6 @@ t merge branch_name
 
 
 -----------------------------------------------------------
+To set alias for log pretty format
+- git config --global alias.for 'log --pretty=format:"%h (%p) - %cn : \"%s\"" --graph'
+- git for -2 
